@@ -1,0 +1,7 @@
+pandas
+selenium
+jupyterlab
+webdriver-manager
+db-sqlite3
+matplotlib
+Flask
