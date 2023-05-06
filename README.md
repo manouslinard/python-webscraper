@@ -1,5 +1,9 @@
+## Repository Description:
+This is a repo with selenium and beautiful soup that webscrapes the characters and the books they appear in from the [witcher wiki fandom page](https://witcher.fandom.com/wiki/Witcher_Wiki). To test out the selenium, go to the selenium-scraper folder, else to test beautiful soup go to beautiful-soup-scraper folder. Then follow the rest of README as shown below:
+
+---
 ## Prerequisites:
-It is recommended to use a venv in python. To do so, run the following:
+It is recommended to use a venv in python. To do so, run the following in the root project folder (python-webscraper):
 ```
 python3 -m venv ./
 ```
@@ -16,8 +20,13 @@ To deactivate the venv, run:
 deactivate
 ```
 ---
-## Short Description:
-This is a web scraper (currently scrapes witcher wikipedia) and gets/saves all the characters of all the books to an sqlite3 db. To use the scraper (saves also to db), run:
+# Web-scrapers
+
+To use the web-scraper of your liking, navigate to the correct folder, and run the following:
+
+---
+## Execution:
+To use the scraper (saves also to db), run:
 ```
 python3 scraper.py
 ```
@@ -34,4 +43,9 @@ This will return all the characters of all the witcher books as json.
 
 ---
 ## Configuration:
-To config a db and the table of reference, go to config.py and change them to your liking.
+To config a db and the table of reference, go to config.py of the wanted scraper's folder and change them to your liking.
+
+---
+## Tutorials Followed:
+* [Thu Vu data analytics](https://www.youtube.com/watch?v=RuNolAh_4bU&ab_channel=ThuVudataanalytics)
+* [FreeCodeCamp](https://www.youtube.com/watch?v=XVv6mJpFOb0&t=516s&ab_channel=freeCodeCamp.org)
